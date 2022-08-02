@@ -28,15 +28,11 @@
         </figure>
         <ul class="nav__link--list">
           <li class="nav__link">
-            <a
-              href="#"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >About</a
-            >
+            
           </li>
           <li class="nav__link">
             <a
-              href="#"
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
@@ -97,14 +93,10 @@
       </a>
       <div class="modal">
         <div class="modal__half modal__about">
-          <h3 class="modal__title modal__title--about">
-            Here's a bit about me.
-          </h3>
-          <h4 class="modal__sub-title modal_-sub-title--about">
-            Frontend Software Engineer.
-          </h4>
+          <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
+          <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
           <p class="modal__para">
-            I'm a 29 year old
+            I'm a 28 year old
             <span class="orange">frontend software engineer</span> with a strong
             passion for developing functional and efficient websites with great
             <span class="orange">user experiences</span>.
@@ -112,52 +104,78 @@
             I currently work on extremely difficult engineering problems and learn from a team consisting of some of the most  <span class="orange"></span>talented </span>and <span class="orange"> software engineers</span> every day.
           </p>
           <div class="modal__languages">
-            <figure>
-              <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="">
+            <figure class="modal__language">
+              <img class="modal__language--img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                alt="">
               <span class="language__name">HTML</span>
             </figure>
-            <figure>
-              <img  class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="">
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                alt="">
               <span class="language__name">CSS</span>
             </figure>
-            <figure>
-              <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="">
-              <span class="language__name">Javascript</span>
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                alt="">
+              <span class="language__name">JavaScript</span>
             </figure>
-            <figure>
-              <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="">
+            <figure class="modal__language">
+              <img class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png" alt="">
+              <span class="language__name">TypeScript</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                alt="">
+              <span class="language__name">React</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="">
               <span class="language__name">Vue</span>
             </figure>
-            <figure>
-              <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="">
-              <span class="language__name">Vue</span>
+            <figure class="modal__language">
+              <img class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png" alt="">
+              <span class="language__name">Nuxt</span>
+            </figure>
+            <figure class="modal__language">
+              <img class="modal__language--img"
+                src="https://cdn.iconscout.com/icon/free/png-256/firebase-3521427-2944871.png" alt="">
+              <span class="language__name">Firebase</span>
             </figure>
           </div>
         </div>
         <div class="modal__half modal__contact">
-        <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
-        <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
-          <h3 class="modal__sub-title modal__sub-title--contact">I'm currently open to new opportunities!</h3>
+          <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
+          <h3 class="modal__title modal__title--contact">
+            Let's have a chat!
+          </h3>
+          <h3 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new opportunities.
+          </h3>
           <form id="contact__form" onsubmit="contact(event)">
             <div class="form__item">
-              <label class="form__item--label" >Name</label>
+              <label class="form__item--label">Name</label>
               <input class="input" name="user_name" type="text" required></input>
             </div>
             <div class="form__item">
-              <label class="form__item--label" for="email">Email</label>
+              <label class="form__item--label">Email</label>
               <input class="input" name="user_email" type="email" required></input>
             </div>
             <div class="form__item">
-              <label class="form__item--label" >Message</label>
+              <label class="form__item--label">Message</label>
               <textarea class="input" name="message" type="text" required></textarea>
             </div>
-            <button id="contact_-submit" class="form__submit">Send it my way</button>
+            <button id="contact__submit" class="form__submit">
+              Send it my way
+            </button>
           </form>
           <div class="modal__overlay modal__overlay--loading">
             <i class="fas fa-spinner"></i>
           </div>
           <div class="modal__overlay modal__overlay--success">
-            Thakns for the message! Looking forward to speaking to you soon!
+            Thanks for the message! Looking forward to speaking to you soon.
           </div>
         </div>
       </div>
@@ -295,7 +313,7 @@
               >Contact</a
             >
             <a
-              href=""
+              href="./assets/Derrick Igoe Resume.pdf"
               class="footer__social--link link__hover-effect link_-hover-effect--white"
               >Resume</a
             >

@@ -364,6 +364,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   transition: all 300ms ease;
 }
 
@@ -737,3 +738,5 @@ footer {
     padding: 40px;
   }
 }
+
+

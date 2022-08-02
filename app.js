@@ -26,8 +26,6 @@ function moveBackground(event) {
         shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px) rotate(${x * boolInt * 10}deg)`
     }
 }
-"service_wy05c8r",
-"template_x0fmluf",
 
 function contact(event) {
     event.preventDefault();
@@ -42,8 +40,8 @@ function contact(event) {
         "RBkKllm5rk27kzmB2"
       )
       .then(() => {
-        loading.classList.remove("modal__overlay--visible");
-        success.classList += " modal__overlay--visible";
+          loading.classList.remove("modal__overlay--visible");
+          success.classList += " modal__overlay--visible";
       })
       .catch(() => {
         loading.classList.remove("modal__overlay--visible");
