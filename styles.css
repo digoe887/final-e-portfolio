@@ -98,7 +98,7 @@ input:focus, textarea:focus {
 }
 
 .orange {
-  color: skyblue !important;
+  color: orangered !important;
 }
 
 .link__hover-effect {
@@ -201,7 +201,7 @@ nav,
 }
 
 .social__link {
-  background-color: skyblue;
+  background-color: orangered;
   color: white;
   padding: 6px;
   width: 32px;
